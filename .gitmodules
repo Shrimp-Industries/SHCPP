@@ -1,0 +1,6 @@
+[submodule "modules/SH_Logger"]
+	path = modules/SH_Logger
+	url = https://github.com/Shrimp-Industries/SH_Logger.git
+[submodule "modules/SH_Algebra"]
+	path = modules/SH_Algebra
+	url = https://github.com/Shrimp-Industries/SH_Algebra.git
