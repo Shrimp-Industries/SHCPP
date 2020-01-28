@@ -7,11 +7,11 @@ input="./modules.shrimp"
 if [ -f "$input" ]; then
     echo "Found modules.shrimp file!"
     echo "Initializing submodules..."
-    git submodule init;
     while read line; do
         if [[ $line != \#* ]]; then
             if [[ ! -z "$line" ]]; then
                 echo "Found $line module! Initializing..."
+                git submodule init ./modules/$line;
                 git submodule update ./modules/$line;
             fi
         fi
