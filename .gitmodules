@@ -4,3 +4,6 @@
 [submodule "modules/SH_Algebra"]
 	path = modules/SH_Algebra
 	url = https://github.com/Shrimp-Industries/SH_Algebra.git
+[submodule "modules/SH_Triangulator"]
+	path = modules/SH_Triangulator
+	url = https://github.com/Shrimp-Industries/SH_Triangulator.git
